@@ -1,0 +1,67 @@
+.form-card{
+    padding:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+.form-title{
+    font-size: 24px;
+}
+
+.form{
+    width: 60%;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.form label{
+    font-size: 20px;
+}
+
+.form input{
+    width: auto;
+    font-size: 20px;
+}
+
+.form  button{
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(33, 153, 33);
+    color: snow;
+    border: 1px solid black;
+    padding: 5px;
+}
+.form button:hover{
+    cursor:pointer;
+}
+
+/* Responsive CSS for Form Card */
+@media (max-width: 760px) {
+    .form-card {
+      padding: 10px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  
+    .form-title {
+      font-size: 20px;
+    }
+  
+    .form {
+      width: 90%;
+      padding: 10px;
+    }
+  
+    .form label {
+      font-size: 16px;
+    }
+  
+    .form input {
+    
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+  
+    .form button {
+      font-size: 16px;
+      padding: 5px 10px;
+    }
+  }
+  

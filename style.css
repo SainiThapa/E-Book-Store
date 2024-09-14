@@ -1,0 +1,882 @@
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin:  15px;
+    padding: 10;
+    background-color: #cbcad7;
+    
+  }
+  
+  header {
+    background-color: #15415e;
+    color: #fff;
+    padding: 1%;
+    text-align: center;
+    margin-bottom: 1px;
+    height: 55px;
+    
+    
+  }
+  
+
+  .header-content {
+    max-width: 800px;
+    margin-bottom:10px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  nav {
+    background-color: #79969b;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    
+
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .text{
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .card {
+    width: 50%; 
+    margin-bottom: 60px; 
+    margin: left 100px;
+    margin-top: 35px;
+    
+  }
+  .card-container {
+      display: flex;
+      flex-wrap:row;
+      gap: 20px;
+      margin-top:40px;
+      margin-left: 10px;
+      
+    }
+  .card img {
+    width: 80%; 
+    height: 300px; /
+  }
+
+  .card-title {
+    font-size: 1.2rem; 
+  }
+
+  
+footer {
+    background-color: #15415e;
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px ;
+    
+  }
+  
+  footer p {
+    margin: 8px;
+   
+  }
+
+
+
+
+
+  /* Book Page */
+.book-page {
+  padding: 20px;
+  margin-left: 50px;
+  background-color: #1b7688;
+}
+
+
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px ;
+}
+
+.search-container input[type="text"] {
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.search-container button {
+  padding: 10px 20px;
+  background-color: #67c56a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-container button:hover {
+  background-color: #45a049;
+}
+
+.book {
+  flex: 0 0 calc(30% - 20px); 
+  margin-bottom: 20px;
+  margin-left: 20px;
+
+}
+.info-section {
+  display: none; 
+}
+
+.info-section.show-info {
+  display: block; 
+}
+
+/*Room Booking Page*/
+
+
+.room {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="date"],
+input[type="time"],
+
+.booking-button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #431daa;
+  border-radius: 5px;
+}
+
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#bookingMessage {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Book1 */
+.container-book{
+  background-color: white;
+  width: 70%;
+  box-shadow: 1px 1px 1px 2px grey;
+  margin-left: 10%;
+  margin-bottom: 5%;
+  
+}
+.book1-container{
+  padding: 10px;
+}
+
+.book-1{
+  float: left;
+
+}
+.book-1 img{
+  padding: 30px;
+  width: 300px;
+}
+.book-content{
+  text-align: left;
+  width: 100%;
+}
+
+.readmore-button{
+  text-align: center;
+}
+.readmore-button button{
+  font-size: larger;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.readmore-button button:hover{
+  cursor: pointer;
+  background-color: #67c56a;
+}
+
+.book-1-content{
+  position:relative;
+  margin: 30px;
+}
+.greyscale{
+  color:grey;
+}
+
+
+
+/* Contact us page */
+.contact-container{
+  position: relative;
+  height: auto;
+  box-shadow: 1px 1px 2px 2px rgb(163, 163, 163);
+  overflow: hidden;
+  margin: 5%;
+}
+
+.contact-container::before{
+  position: absolute;
+  content: '';
+  background-image: url('contact.jpeg');
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.contact-header{
+  color: rgb(33, 22, 194);
+  /* font-weight: 600; */
+  font-size: 44px;
+  margin-left: 20px;
+}
+
+.contact-container form{
+  padding: 20px;
+}
+
+.form-group {
+  margin: 20px;
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: rgb(214, 239, 255);
+  box-sizing: border-box;
+}
+
+
+.contact-container button{
+  background-color: #3388aa;
+  border-radius: 15px;
+  border: 1px white;
+  color: whitesmoke;
+  padding: 10px 0;
+  width: 20%;
+  font-size: 18px;
+}
+.contact-container button:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.01);
+}
+
+#response {
+  margin-top: 20px;
+}
+
+
+/*Latest News Page*/
+
+.news {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+.news-article {
+  border: 1px solid #dbd7d7;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.news-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.news-date {
+  color: #888;
+  font-size: 14px;
+}
+
+.news-summary {
+  margin-top: 10px;
+}
+
+
+
+/*Room Booking Page*/
+
+
+.room {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="date"],
+input[type="time"],
+
+.booking-button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #3911a6;
+  border-radius: 5px;
+}
+
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#bookingMessage {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* About page */
+.about-container{
+  width: 60%;
+  /* text-align: center; */
+  margin-top: 5%;
+  padding-left: 5%;
+}
+
+.about-container h1{
+  
+  font-size: 40px;
+}
+
+.about-container p{
+  text-align:justify;
+}
+
+#hidden-content{
+  display: none;
+}
+
+#hidden-content p{
+  text-align: justify;
+}
+
+.about-option{
+  float:right;
+  text-align: right;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px 1px black;
+  padding-right: 20px;
+  background-color:snow;
+}
+
+.about-option h1{
+  padding-left: 30px;
+  text-align: left;
+}
+
+
+.about-option ul li{
+  list-style-type: none;
+  text-align: left;
+  font-size: 24px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background-color:powderblue; 
+}
+
+.about-option ul li:hover{
+  transition:0.5s;
+  transform:scale(1.05);
+}
+
+.about-option ul li a{
+  display: contents;
+  color: black;
+}
+
+
+.btn{
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #3388aa;
+  color:#f2f2f2;
+  font-size: 26px;
+}
+.btn:hover{
+  cursor:pointer;
+  background-color: #f2f2f2;
+  transition: 0.5s;
+  color:#3388aa;
+}
+
+/* Event page */
+.search-Event{
+  margin-top:20px;
+}
+.search-Event input[type="text"]{
+  padding: 10px;
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.search-Event button{
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.event-body{
+  margin-left: 5%;
+}
+
+.anzac-event{
+  background-color: rgb(254, 243, 233);
+  width: 50%;
+  padding: 10px;
+  box-shadow: 1px 1px 1px 1px rgb(121, 118, 118);
+  overflow: hidden;
+  float: left;
+  margin-bottom: 50px;
+}
+.anzac-event:hover{
+  transition: 0.5s;
+  transform: scale(1.02);
+}
+.anzac-event a{
+  display: contents;
+  color: rgb(27, 22, 22);
+}
+.anzac-container{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  overflow: hidden;
+}
+.anzac-container p{
+  text-align: justify;
+  font-size: 18px;
+}
+
+.anzac-event img{
+  margin-bottom: 10px;
+  width: 600px;
+}
+.click{
+  color: red;
+  margin-left: 50%;
+}
+.events{
+  width: 30%;
+  float: right;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px #333;
+  background-color: rgb(207, 205, 205);
+}
+.upcoming-event{
+text-align: left;
+width: 70%;
+padding: 10px;
+border-radius: 30px;
+background-color: snow;
+border:2px solid black;
+}
+.upcoming-event:hover{
+  transition:0.5s;
+  transform:scale(1.05);
+}
+.upcoming-event ul li{
+  font-size: 22px;
+  margin:5px;
+  list-style-type: style typ disc;;
+}
+.upcoming-event h2{
+  font-size: 28px;
+}
+
+/* Anzac-event page */
+.anzac-event-container{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.anzac-event-container  h1{
+  text-align: center;
+  font-size: 36px;
+  font-family: 'Lucida Sans';
+}
+.anzac-detail{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  /* border: 1px solid black; */
+}
+.anzac-col1{
+  height:150px;
+  float:left;
+  border: 1px solid black;
+  width: 50%;
+  padding:10px;
+}
+.anzac-col2{
+  height: 150px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.anzac-col1 p{
+  font-size: 22px;
+}
+.anzac-col1 p a{
+  display: contents;
+  color: #333;
+  font-size: 18px;
+}
+.anzac-col2 p{
+  padding-top: 30px;
+  text-align: center;  
+  font-size: 22px;
+}
+.anzac-event-container button{
+  font-size: larger;
+  background-color:#4CAF50;
+  color: #fff;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.anzac-event-container button:hover{
+  cursor:pointer;
+  transition:0.5s;  
+  transform: scale(1.06);
+}
+
+@media (max-width: 760px){
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    Grid-template-columns:auto 1fr auto;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .container {
+      padding: 5px;
+ 
+   }
+  header h1 {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+    
+  .card {
+      width: 80%; 
+      margin-bottom: 10px; 
+      margin-left:  20px;
+      margin-top: 35px;
+      
+    }
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      grid-gap: 10px;
+    }
+  .card img {
+      width: 100%; 
+      height: auto; /
+    }
+  
+    .card-title {
+      font-size: 1.2rem; 
+    }
+  
+    .btn {
+      padding: 8px 15px;
+      margin-top: 15px; 
+    }
+    .info-section {
+      display: none; 
+    }
+    
+  .show-info {
+    display: block; 
+  }
+  
+  .footer {
+    background-color: #15415e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 8px;
+  }
+  .book {
+    flex: 0 0 calc(30% - 20px); 
+    margin-bottom: 20px;
+    margin-left: 0px;
+  
+  }
+  .about-container {
+    width: 95%;
+    margin-top: 3%;
+  }
+
+  .about-container h1 {
+    font-size: 30px;
+  }
+
+  .about-option {
+    float: none;
+    text-align: left;
+    padding: 10px 5px;
+    margin: 0;
+    box-shadow: none;
+    background-color:#cbcad7;
+  }
+  .about-option ul li{
+    list-style-type:square;
+    text-align: left;
+    font-size: 24px;
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    background-color:#cbcad7; 
+  }
+
+  .about-option h1 {
+    text-align: left;
+  }
+
+  .about-option ul li {
+    font-size: 18px;
+    padding: 5px;
+  }
+  .about-option ul li:hover{
+    transform:none;
+  }
+
+  .btn {
+    font-size: 20px;
+  }
+
+  /* Event page */
+  .search-Event input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .search-Event button {
+    width: 100%;
+  }
+
+  .anzac-event {
+    width: 100%;
+    float: none;
+  }
+
+  .anzac-event img {
+    width: 100%;
+  }
+
+  .click{
+    margin:0;
+  }
+
+  .events {
+    width: 100%;
+    float: none;
+    margin-top: 20px;
+  }
+
+  .upcoming-event {
+    width: 90%;
+  }
+
+  /* Anzac-event page */
+  .anzac-event-container {
+    width: 95%;
+  }
+
+  .anzac-event-container h1 {
+    font-size: 28px;
+  }
+
+  .anzac-detail {
+    width: 100%;
+  }
+
+  .anzac-col1, .anzac-col2 {
+    height: auto;
+    width: 100%;
+    float: none;
+  }
+
+  .anzac-col1 p,
+  .anzac-col2 p {
+    font-size: 18px;
+  }
+
+/* Contact us page */
+.contact-container{
+  position: relative;
+  height: auto;
+  box-shadow: 1px 1px 2px 2px rgb(163, 163, 163);
+  overflow: hidden;
+  margin: 5%;
+}
+
+.contact-container::before{
+  position: absolute;
+  content: '';
+  background-image: url('contactus.webp');
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.contact-header{
+  color: rgb(242, 242, 242);
+  /* font-weight: 600; */
+  font-size: 44px;
+  margin-left: 20px;
+}
+
+.contact-container form{
+  padding: 20px;
+}
+
+.form-group {
+  margin: 20px;
+}
+
+label {
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+
+.contact-container button{
+  width: 90%;
+}
+.contact-container button:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.01);
+}
+
+#response {
+  color: green;
+  background-color:whitesmoke;
+  text-align: center;
+  margin-top: 0px;
+}
+}

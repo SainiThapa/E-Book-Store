@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educational Library</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Welcome To Our Educational Library</h1>
+    </div>
+  </header>
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="event.html">Events</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+   <!-- Search Engine -->
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search for books...">
+      <button onclick="searchBooks()">Search</button>
+    </div>
+
+   <div class="row">
+    <h1>New Arrivals</h1>
+    <div class="card-container" id="cardContainer">
+        <div class="card book">
+          <img src="https://th.bing.com/th/id/OIP.gYCpQ825o8Jvj6Jp4XKM8AAAAA?rs=1&pid=ImgDetMain " alt="Book ">
+          <div class="card-content">
+            <h2 class="card-title">Artificial Intelligence and machine learning for business</h2>
+            <button class="toggle-info">Read Now</button>
+            <div class="info-section">This Book will be available on june 1st.  </div>
+          </div>
+        </div>
+    
+        <div class="card book">
+            <img src=" https://rukminim1.flixcart.com/image/832/832/knoxnrk0/regionalbooks/d/i/5/habits-atomic-original-imag2bcyjbkz5mvq.jpeg?q=70" alt="Book ">
+          <div class="card-content">
+            <h2 class="card-title">Atomic Habit </h2>
+            <button class="toggle-info">Read Now</button>
+            <div class="info-section">This Book will be available on june 1st. </div>
+          </div>
+        </div>
+    
+        <div class="card book">
+            <img src=" https://m.media-amazon.com/images/I/514l3cSu+XL.jpg" alt="Book ">
+          <div class="card-content">
+            <h2 class="card-title"> Ahead In The Cloud </h2>
+            <button class="toggle-info">Read Now</button>
+            <div class="info-section">This Book will be available on june 1st </div>
+          </div>
+        </div>
+     
+      </div>
+    
+    <div class="row">
+        <h1>Top Picks</h1>
+        <div class="card-container" id="cardContainer">
+            <div class="card book">
+                <img src="https://images-na.ssl-images-amazon.com/images/I/41KRTBMr7UL.jpg" alt="Book ">
+              <div class="card-content">
+                <h2 class="card-title">The First Days of School: How to Be an Effective Teacher</h2>
+                
+                <button class="toggle-info">Read Now</button>
+                <div class="info-section">The First Days of School" by Harry K. Wong and Rosemary T. Wong offers practical guidance for teachers on classroom management, 
+                    lesson planning, and building positive relationships with students. </div>
+              </div>
+            </div>
+        
+            <div class="card book">
+                <img src=" https://th.bing.com/th/id/OIP.1SgYR3TfuM5tqNrm1xiqHQHaLi?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Book ">
+              <div class="card-content">
+                <h2 class="card-title">How To Win At College</h2>
+                <button class="toggle-info">Read Now</button>
+                <div class="info-section"> This book by Cal Newport provides tips and strategies for maximizing productivity, managing time effectively, and achieving academic success. </div>
+              </div>
+            </div>
+        
+            <div class="card book">
+                <img src=" https://th.bing.com/th/id/OIP.o1FPlwxJ6Ari3xv6zrp0JQHaLn?w=195&h=307&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="Book ">
+              <div class="card-content">
+                <h2 class="card-title">The Miracle of Mindfulness</h2>
+                <button class="toggle-info">Read Now</button>
+                <div class="info-section">By Thich Nhat Hanh- This classic book introduces the practice of mindfulness meditation, offering simple techniques and exercises
+                     to cultivate awareness, reduce stress, and find peace in everyday life. </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+    <div class="row">
+        <h1>Your Favorite Books</h1>
+        <div class="card-container" id="cardContainer">
+            <div class="card book">
+                <img src=" https://media.s-bol.com/7l0X9RkgmMQ/802x1200.jpg" alt="Book ">
+              <div class="card-content">
+                <h2 class="card-title">The Phonix Project</h2>
+                <button class="toggle-info">Read Now</button>
+                <div class="info-section">A novel by by Gene Kim, Kevin Behr, and George Spafford is about IT and DevOps, following an IT manager's journey to transform a failing project. <a href="/Books/pheonix_project.html">Visit the book.</a></div>
+              </div>
+            </div>
+        
+            <div class="card book">
+                <img src=" https://images.cdn3.buscalibre.com/fit-in/360x360/ed/21/ed21ee0ce7ca0c260bca24004514c51b.jpg" alt="Book ">
+              <div class="card-content">
+                <h2 class="card-title">Mindset:The New Psychology of Success </h2>
+                <button class="toggle-info">Read Now</button>
+                <div class="info-section"> by Carol S. Dweck - Explores the power of mindset, contrasting fixed and growth mindsets, and how they impact success. <a href="/Books/mindset_carol.html">Visit the book.</a></div>
+              </div>
+            </div>
+        
+            <div class="card book">
+                <img src="https://upload.wikimedia.org/wikipedia/en/e/ee/The_Art_of_Happiness.jpg" alt="Book ">
+              <div class="card-content">
+                <h2 class="card-title">The Art Of Happiness </h2>
+                <button class="toggle-info">Read Now</button>
+                <div class="info-section">A book By Dalai Lama- Offers insights from the Dalai Lama on finding happiness and inner peace, with practical advice for daily life. <a href="/Books/art_of_happiness.html">Visit the book.</a></div>
+              </div>
+            </div>
+          </div>
+    </div>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+    <footer>
+        <div class="container">
+          <p>&copy; 2024 Educational Library. All rights reserved.</p>
+        </div>
+      </footer>
+      
+
+ 
+</html>
+      

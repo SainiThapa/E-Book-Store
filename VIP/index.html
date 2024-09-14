@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Educational Library</h1>
+        <p>Explore our collection of books</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <p><h1>Featured Books</h1></p>
+    <main>
+        
+        <div class="book">
+          
+            <h3> "Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Martin </h3>
+            <p>Description: This book offers practical advice on writing clean, maintainable, and efficient code.
+                 It covers principles, patterns, and practices for writing code that is easy to understand, modify,
+                  and maintain, helping developers improve their coding skills and produce higher-quality software.</p>
+        </div>
+        <div class="book">
+            
+            <h3>"The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win" by Gene Kim, Kevin Behr, 
+                and George Spafford</h3>
+            <p>Description: Through a fictional narrative, this book explores the challenges faced by IT organizations 
+                and the principles of DevOps, a culture and set of practices aimed at improving collaboration, automation,
+                 and efficiency between development and operations teams. It offers insights into transforming IT departments 
+                 and aligning them with business goals.e.</p>
+        </div>
+        <div class="book">
+            
+            <h3>"Design Patterns: Elements of Reusable Object-Oriented Software" by Erich Gamma, Richard Helm,
+                 Ralph Johnson, and John Vlissides</h3>
+            <p>Description: This classic book introduces design patterns, reusable solutions to common problems 
+                encountered in software design. It presents a catalog of design patterns categorized by their intent,
+                 structure, and behavior, providing guidance on when and how to apply them in software development to 
+                 improve code reusability, maintainability, and scalability.</p>
+        </div>
+    </main>
+
+    <div class="container">
+        <h1>Search Your Book</h1>
+        <form id="libraryForm">
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title">
+            </div>
+            <div class="form-group">
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author">
+            </div>
+            <div class="form-group">
+                <label for="isbn">ISBN:</label>
+                <input type="text" id="isbn" name="isbn">
+            </div>
+            <div class="form-group">
+                <label for="genre">Genre:</label>
+                <select id="genre" name="genre">
+                    <option value="">Select Genre</option>
+                    <option value="fiction">Fiction</option>
+                    <option value="nonfiction">Non-Fiction</option>
+                    <option value="fantasy">Fantasy</option>
+                    <option value="mystery">Mystery</option>
+                    <option value="science_fiction">Science Fiction</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="language">Language:</label>
+                <input type="text" id="language" name="language">
+            </div>
+            <button type="submit">Search</button>
+        </form>
+        <div id="message" class="message"></div>
+    </div>
+    
+    
+
+
+
+    <footer>
+        <p>&copy; 2024 Educational Library. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

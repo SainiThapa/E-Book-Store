@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Welcome To Our Educational Library</h1>
+    </div>
+  </header>
+  <nav>
+    <div class="container">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../books.html">Books</a></li>
+        <li><a href="../event.html">Events</a></li>
+        <li><a href="../contactus.html">Contact Us</a></li>
+        <li><a href="../about.html">About Us</a></li>
+      </ul>
+    </div>
+  </nav>
+        <div class="form-card">
+            <div class="form-title">
+                Please fill the given boxes to register for the event !
+            </div>
+            <br>
+            <div class="form">
+              <form id="myForm">
+                <label for="Full Name">Full name:</label>
+                <input class="input" type="text" id="Full Name" name="Full Name" required><br><br>
+                
+                <label for="Age">Age:</label>
+                <input type="number" class="input" id="Age" name="Age" required><br><br>
+                
+                <label for="Phone">Phone: </label>
+                <input type="text" class="input" id="phone" name="phone" placeholder="+61 XXX XXX XXX" required><br><br>
+                
+                <label for="Email Address">Email Address:</label>
+                <input class="input" type="email" id="Email Address" placeholder="example@abc.com" name="Email Address" required><br><br>
+                
+                <label for="familiar">Are you familiar with the event?</label>
+                <input class="radio" type="radio" id="subscribe" name="Familar" value="Yes" checked> Yes
+                <input class="radio" type="radio" id="unsubscribe" name="Not Familiar" value="No"> No<br><br>
+                
+                <button type="button" onclick="saveFormData()">Submit</button>
+            </form>      
+            </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <p>&copy; 2024 Educational Library. All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+    </html>
